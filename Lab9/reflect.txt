@@ -1,0 +1,9 @@
+// Name:Qianyun He
+// Seneca Student ID: 153515176
+// Seneca email: qhe29@myseneca.ca
+// Date of completion: 2018/11/21
+//
+// I confirm that the content of this file is created by me,
+// with the exception of the parts provided to me by my professor.
+
+After completing this workshop, I backup an encrypted text file of characters to a binary file, restore the encrypted data from the binary file and add multi-threading to the solution. I have learned how to process partitioned data on two or more threads, also how to write a set of characters to a file in binary mode and read a set of characters from a file in binary mode. Also, I have learned how to use bind function to bind to its arguments.

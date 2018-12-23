@@ -1,0 +1,8 @@
+
+Statistics
+==========
+y mean    =    1.00
+y sigma   =    0.00
+y median  =    1.00
+slope     =    0.00
+intercept =    1.00

@@ -1,0 +1,11 @@
+In file included from /usr/include/c++/4.8.2/thread:39:0,
+                 from SecureData.cpp:13:
+/usr/include/c++/4.8.2/functional: In instantiation of ‘struct std::_Bind_simple<std::_Bind<void (*(char**, char, int, w9::Cryptor))(char*, char, int, const w9::Cryptor&)>()>’:
+/usr/include/c++/4.8.2/thread:137:47:   required from ‘std::thread::thread(_Callable&&, _Args&& ...) [with _Callable = std::_Bind<void (*(char**, char, int, w9::Cryptor))(char*, char, int, const w9::Cryptor&)>; _Args = {}]’
+SecureData.cpp:76:105:   required from here
+/usr/include/c++/4.8.2/functional:1697:61: error: no type named ‘type’ in ‘class std::result_of<std::_Bind<void (*(char**, char, int, w9::Cryptor))(char*, char, int, const w9::Cryptor&)>()>’
+       typedef typename result_of<_Callable(_Args...)>::type result_type;
+                                                             ^
+/usr/include/c++/4.8.2/functional:1727:9: error: no type named ‘type’ in ‘class std::result_of<std::_Bind<void (*(char**, char, int, w9::Cryptor))(char*, char, int, const w9::Cryptor&)>()>’
+         _M_invoke(_Index_tuple<_Indices...>)
+         ^
